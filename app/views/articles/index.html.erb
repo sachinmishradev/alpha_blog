@@ -16,7 +16,7 @@
     <td>
     <%= link_to "Show" , article_path(article) %>
     <%= link_to "Edit" , edit_article_path(article) %>
-    <%= link_to 'Destroy', article , :method  => :delete, data: { confirm: 'Are you sure?' } %>
+  <li class="btn btn-danger">  <%= button_to 'Destroy', article , :method  => :delete, data: { confirm: 'Are you sure?' } %></li>
     </td>
   </tr>
 
