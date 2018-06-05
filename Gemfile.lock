@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/kossnocorp/jquery.turbolinks.git
+  revision: 3c364b678685e81fa2358592a99c3f2713a84692
+  specs:
+    jquery-turbolinks (2.1.0)
+      railties (>= 3.1.0)
+      turbolinks
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -211,6 +219,7 @@ DEPENDENCIES
   duktape
   jbuilder (~> 2.5)
   jquery-rails
+  jquery-turbolinks!
   pg
   puma (~> 3.11)
   rails (~> 5.2.0)
